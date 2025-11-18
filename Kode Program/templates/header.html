@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Lecturer App</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="../bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- Navbar utama aplikasi -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.php">Lecturers</a>
+
+        <!-- Tombol toggle untuk tampilan mobile -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Menu Navbar -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <!-- Link Home, dengan class 'active' jika halaman saat ini index.php -->
+                <li class="nav-item">
+                    <a class="nav-link <?= basename($_SERVER['PHP_SELF']) == 'index.php' ? 'active' : '' ?>"
+                       href="index.php">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="index.php">Lecturer</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="index.php">Subject</a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Container utama halaman -->
+<div class="container my-4">
