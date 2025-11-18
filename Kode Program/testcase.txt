@@ -1,7 +1,0 @@
-# Lecturers
-Rizki Ramadhan      | 22334455 | 081234567812 | 2019-07-10 | Bebas
-Siti Novita Lestari | 99887766 | 081289001234 | 2021-02-25 | Bebas
-
-# Subject
-Sistem Operasi  | 4 SKS
-Pemrograman Web | 3 SKS
